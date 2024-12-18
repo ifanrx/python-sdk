@@ -13,7 +13,7 @@ from datetime import datetime
 
 import arrow
 import iso8601
-from werkzeug import LocalProxy
+from werkzeug.local import LocalProxy
 import dateutil.tz as tz
 
 import leancloud

@@ -10,7 +10,7 @@ import json
 import warnings
 
 import iso8601
-from werkzeug import LocalProxy
+from werkzeug.local import LocalProxy
 
 import leancloud
 from leancloud import utils
